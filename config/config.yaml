@@ -1,0 +1,19 @@
+SYSTEM:
+  img_path : "/home/zbs/PROJECTS/Datas/05/image_2" # Your datasets path
+  score_path : "../data/scores.txt" # Similarity result output
+LSGD:
+  disc_num : 50  # Number of discarded initial frames in the initial state
+  seg_show_flag : false
+  seg_img_path : "../data/segImages/"
+  seg_iter : 10 # The number of iterations in the image segmentation process
+  init_grid_size : 50 # Initial segmentation grid size (S_p)
+  intensity_scale : 2.3
+  distance_scale : 1.0
+DYNAMIC_NODE: # Dynamic node related parameters
+  threshold_0 : 0.9
+  threshold_1 : 0.8
+  threshold_2 : 1.0
+
+
+
+
